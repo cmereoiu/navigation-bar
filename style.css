@@ -1,0 +1,80 @@
+/* Main Style */
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #f4f4f4;
+}
+a:hover {
+  color: #f58e77;
+}
+html {
+  font-size: 62.5%;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-size: 2.6rem;
+}
+
+li,
+button,
+label,
+input,
+p {
+  font-size: 2rem;
+}
+
+/* Header Style */
+
+header {
+  background-color: rgb(17, 46, 46);
+  color: #f4f4f4;
+}
+
+/* Navbar */
+
+.navbar {
+  display: flex;
+  min-height: 10vh;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+  padding: 2rem;
+  flex-wrap: wrap;
+}
+
+.navbar ul li {
+  list-style: none;
+}
+
+.navbar ul {
+  display: flex;
+  flex: 1 1 40rem;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* Logo */
+
+#logo {
+  flex: 3 1 48rem;
+}
+
+@media screen and (max-width: 932px) {
+  html {
+    font-size: 45%;
+  }
+  nav {
+    text-align: center;
+  }
+  #logo {
+    padding: 2rem;
+  }
+}
